@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 	<head>
 		<title>Pizza De Snelle</title>
@@ -16,10 +16,13 @@
 			.border-bottem{
 				border-style: 2px solid black;
 				border-width: 100%;
+			.headerx{
+				padding:200px;
+			}
 		</style>
 	</head>
 	<body class="red">
-		<div class="pure-g">
+		<div class="pure-g headerx">
 			<div class="pure-u-8-24"></div>
 			<div class="pure-u-8-24 center border-bottem">
 				<ul class="pure-menu pure-menu-horizontal">
@@ -48,6 +51,34 @@
 				<h1>Pizza De Snelle</h1>
 			</div>
 			<div class="pure-u-8-24"></div>
+		</div>
+		<div class="pure-g">
+			<div class="pure-u-8-24"></div>
+			<div class="pure-u-8-24">
+				<form class="pure-form pure-form-stacked">
+					<fieldset>
+						<legend>Pizza kopen</legend>
+						<label for="name">Naam</label>
+						<input id="name" type="text" placeholder="Naam" required>
+
+						<label for="email">Email</label>
+						<input id="email" type="email" placeholder="Email" required>
+
+						<label for="pizza">Pizza</label>
+						<select id="pizza" required>
+							<option>Margherita</option>
+							<option>Funghi</option>
+							<option>Hawaii</option>
+							<option>Salami</option>
+							<option>Carbonara</option>
+						</select>
+						<button type="submit" class="pure-button pure-button-primary">Pizza bestellen</button>
+					</fieldset>
+				</form>
+			</div>
+			<div class="pure-u-8-24"></div>
+		</div>
+		<div class="pure-g">
 			<div class="pure-u-8-24"></div>
 			<div class="pure-u-8-24">
 				<footer class="center">&copy; 2016 Arne Van den Langenbergh</footer>
