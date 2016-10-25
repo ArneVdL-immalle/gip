@@ -1,18 +1,7 @@
-# PizzaDeSnelle-Website
+# Taak-07-SjabloonGIPWebsite
 
-Dit is de website van Pizzazaak De Snelle.
+## Ik gebruik een grid van PureCSS voor een responsieve website te hebben.
 
-# Updates
-[05/09] project gestart
+## Ik gebruik een menu voor te switchen van pagina en hij hovert als ik erover hover.
 
-[06/09] menu en footer toegevoegd en html end tag opgelost
-
-[08/09] title toegevoegd en heading verandert en menu tags opgelost
-
-[13/09] pureCSS toegevoegd
-
-[15/09] grid opgelost
-
-[26/09] Menu toegevoegd aan website
-
-[27/09] bestel pagina layout klaar, contact en openingsuren aangemaakt
+## Ik heb alleen een front end form dat werkt, back end niet wegens dat ik het niet in PHP heb gemaakt.
