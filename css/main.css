@@ -1,11 +1,24 @@
-﻿.center{
+@media (min-width: 768px) {
+    .navbar .navbar-nav{
+	display:inline-block;
+	float:none;
+	vertical-align:top;
+    }
+    .navbar .navbar-collapse{
+	text-align:center;
+    }
+}
+.square{
+    min-height: 10vh;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 25%;
+}
+.center{
 	text-align: center;
 }
 .red{
 	background-color: #FF704D;
-}
-.headerx{
-	background-color:#ff6600;
 }
 .padding-bot-top{
 	padding-bottom: 40px;
@@ -15,4 +28,17 @@
 }
 ul{
     list-style-type: none;
+}
+header{
+    margin-top: 3%;
+}
+footer{
+    padding: 19px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: #222;
+    border-color: #080808;
+    position: absolute;
 }
