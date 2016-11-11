@@ -3,14 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     	<title>GIP website</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/main.css" />
     </head>
     <body class="red">
         <div class="container-fluid">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
+            <nav class="navbar navbar-inverse navbar-fixed-top navbar-static-top" role="navigation">
+                <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -18,81 +18,45 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/">Home</a>
+                        <div class="navbar-brand"></div>
                     </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>
+                            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                            <li><a href="taken.html">Taken</a></li>
                         </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
+                    </div>
+                </div>
             </nav>
+            <header>
+                <div class="padding-bot-top">
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-2 center">
+                            <h1>GIP website</h1>
+                        </div>
+                        <div class="col-md-5"></div>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div class="padding-bot-bot">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">Hier komt mijn welkom tekst</div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </section>
+            <footer class="center">
+                <div class="row" style="margin: 0px;">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p>&copy; 2016 Arne Van den Langenbergh</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </footer>
         </div>
-                <nav>
-            <div class="pure-g headerx">
-		<div class="col-md-4-12"></div>
-                <div class="col-md-4-12 center">        
-                    <ul class="nav nav-tabs">
-                        <li role="navigation">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li role="navigation">
-                            <a href="openingsuren.html">Openingsuren</a>
-                        </li>
-                        <li role="navigation">
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4-12"></div>
-            </div>
-        </nav>
-        <header>
-            <div class="pure-g padding-bot-top">
-		<div class="col-md-4-12"></div>
-                    <div class="pure-u-8-24 center">
-                        <h1>GIP website</h1>
-                    </div>
-		<div class="col-md-4-12"></div>
-            </div>
-        </header>
-        <section>
-            <div class="pure-g padding-bot-bot">
-                <div class="col-md-4-12"></div>
-                <div class="col-md-4-12">
-                    <h2>Dit is een voorbeeld</h2>
-                    <form class="pure-form pure-form-stacked">
-                        <fieldset>
-                            <legend>Pizza kopen</legend>
-                            <label for="name">Naam</label>
-                            <input id="name" type="text" placeholder="Naam" required>
-                            <label for="email">Email</label>
-                            <input id="email" type="email" placeholder="Email" required>
-                            <label for="pizza">Pizza</label>
-                            <select id="pizza" required>
-                                <option>Margherita</option>
-                                <option>Funghi</option>
-                                <option>Hawaii</option>
-                                <option>Salami</option>
-                                <option>Carbonara</option>
-                            </select>
-                            <button type="submit" class="pure-button pure-button-primary">Pizza bestellen</button>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="col-md-4-12"></div>
-            </div>
-        </section>
-        <footer class="center">
-            <div class="pure-g">
-		<div class="col-md-4-12"></div>
-                    <div class="col-md-4-12">
-			&copy; 2016 Arne Van den Langenbergh
-                    </div>
-		<div class="col-md-4-12"></div>
-            </div>
-        </footer>
     </body>
 </html>
