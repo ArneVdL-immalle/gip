@@ -7,13 +7,28 @@
     .navbar .navbar-collapse{
 	text-align:center;
     }
+    header{
+    margin-top: 3%;
+    }
+    .square{
+        min-height: 10vh;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 25%;
+    }
 }
-.square{
-    min-height: 10vh;
-    width: 100%;
-    border: 2px solid black;
-    margin-bottom: 25%;
+@media (max-width:720px){
+    header{
+        margin-top: 10%;
+    }
+    .square{
+        min-height: 10vh;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 12.5%;
+    }
 }
+
 .center{
 	text-align: center;
 }
@@ -29,9 +44,6 @@
 ul{
     list-style-type: none;
 }
-header{
-    margin-top: 3%;
-}
 footer{
     padding: 19px;
     left: 0;
@@ -40,5 +52,5 @@ footer{
     color: white;
     background-color: #222;
     border-color: #080808;
-    position: absolute;
+    position: fixed;
 }
