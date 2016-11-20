@@ -1,36 +1,19 @@
-@media (min-width: 768px) {
-    .navbar .navbar-nav{
-	display:inline-block;
-	float:none;
-	vertical-align:top;
-    }
-    .navbar .navbar-collapse{
-	text-align:center;
-    }
-    header{
-    margin-top: 3%;
-    }
-    .square{
-        min-height: 10vh;
-        width: 100%;
-        border: 2px solid black;
-        margin-bottom: 25%;
-    }
+header{
+    margin-top: 10%;
 }
-@media (max-width:720px){
-    header{
-        margin-top: 10%;
-    }
-    .square{
-        min-height: 10vh;
-        width: 100%;
-        border: 2px solid black;
-        margin-bottom: 12.5%;
-    }
+.nodeco:hover{
+    text-decoration: none !important;
 }
-
-.center{
-	text-align: center;
+.vcenter {
+    display: inline;
+    vertical-align:middle;
+    float:none;
+}
+.square{
+    min-height: 10vh;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 15%;
 }
 .red{
 	background-color: #FF704D;
@@ -53,4 +36,23 @@ footer{
     background-color: #222;
     border-color: #080808;
     position: fixed;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav{
+        display:inline-block;
+        float:none;
+        vertical-align:top;
+    }
+    .navbar .navbar-collapse{
+        text-align:center;
+    }
+    header{
+        margin-top: 4%;
+    }
+    .square{
+        min-height: 10vh;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 25%;
+    }
 }
