@@ -4,6 +4,9 @@ header{
 .nodeco:hover{
     text-decoration: none !important;
 }
+.word-wrap{
+    word-wrap: break-word;
+}
 .vcenter {
     display: inline;
     vertical-align:middle;
