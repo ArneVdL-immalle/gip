@@ -1,8 +1,13 @@
 header{
     margin-top: 10%;
+    color: white;
 }
-.nodeco:hover{
-    text-decoration: none !important;
+a{
+    color: black;
+}
+a:hover{
+    color: gray;
+    text-decoration: none;
 }
 .word-wrap{
     word-wrap: break-word;
@@ -13,13 +18,15 @@ header{
     float:none;
 }
 .square{
+    background-color: #07E4EA;
     min-height: 10vh;
     width: 100%;
     border: 2px solid black;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
+    padding:5px;
 }
 .red{
-	background-color: #FF704D;
+	background-color: #0000B2;
 }
 .padding-bot-top{
 	padding-bottom: 40px;
@@ -43,7 +50,7 @@ footer{
 section{
     margin-bottom: 70px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .navbar .navbar-nav{
         display:inline-block;
         float:none;
@@ -56,10 +63,36 @@ section{
         margin-top: 4%;
     }
     .square{
+        background-color: #07E4EA;
         min-height: 10vh;
         width: 100%;
         border: 2px solid black;
         margin-bottom: 25%;
+        padding: 5px;
+    }
+    section{
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 768px){
+    .navbar .navbar-nav{
+        display:inline-block;
+        float:none;
+        vertical-align:top;
+    }
+    .navbar .navbar-collapse{
+        text-align:center;
+    }
+    header{
+        margin-top: 4%;
+    }
+    .square{
+        background-color: #07E4EA;
+        min-height: 10vh;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 10%;
+        padding: 5px;
     }
     section{
         margin-bottom: 0;
