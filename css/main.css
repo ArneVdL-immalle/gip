@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 header{
     margin-top: 10%;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px white;
 }
-a{
+.deco{
     color: black;
+    text-decoration: underline;
 }
 a:hover{
     color: gray;
@@ -18,15 +23,16 @@ a:hover{
     float:none;
 }
 .square{
-    background-color: #07E4EA;
+    background-color: #66CCFF;
     min-height: 10vh;
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid #66CCFF;
+    box-shadow: 10px 10px 5px #AAAAAA;
     margin-bottom: 10%;
     padding:5px;
 }
-.red{
-	background-color: #0000B2;
+body{
+	background-color: #0099CC;
 }
 .padding-bot-top{
 	padding-bottom: 40px;
@@ -49,6 +55,7 @@ footer{
 }
 section{
     margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
 }
 @media (min-width: 992px) {
     .navbar .navbar-nav{
@@ -61,17 +68,21 @@ section{
     }
     header{
         margin-top: 4%;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 2px 2px 4px white;
     }
     .square{
-        background-color: #07E4EA;
+        background-color: #66CCFF;
         min-height: 10vh;
         width: 100%;
-        border: 2px solid black;
+        border: 2px solid #66CCFF;
+        box-shadow: 10px 10px 5px #AAAAAA;
         margin-bottom: 25%;
         padding: 5px;
     }
     section{
         margin-bottom: 0;
+        font-family: 'Roboto', sans-serif;
     }
 }
 @media (min-width: 768px){
@@ -85,16 +96,20 @@ section{
     }
     header{
         margin-top: 4%;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 2px 2px 4px white;
     }
     .square{
-        background-color: #07E4EA;
+        background-color: #66CCFF;
         min-height: 10vh;
         width: 100%;
-        border: 2px solid black;
+        border: 2px solid #66CCFF;
+        box-shadow: 10px 10px 5px #AAAAAA;
         margin-bottom: 10%;
         padding: 5px;
     }
     section{
         margin-bottom: 0;
+        font-family: 'Roboto', sans-serif;
     }
 }
