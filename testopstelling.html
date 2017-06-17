@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Testopstelling Flow</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-inverse navbar-fixed-top navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand"></div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="taken.html">Taken</a></li>
+                            <li><a href="stage.html">Stage</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <header>
+                <div class="padding-bot-top">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6 text-center">
+                            <h1 class="text-nowrap">GIP website</h1>
+                            <h1>Arne Van den Langenbergh</h1>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div class="padding-bot-bot word-wrap">
+                    <div class="row">
+                        <div class="col-xs-1 col-md-3"></div>
+                        <div class="col-xs-10 col-md-6">
+                            <div class="square">
+                                <h2 class="text-center text-nowrap">Testopstelling Flow</h2>
+                                <p>
+                                    <ol>
+                                        <li>Aanmaken ftp-verbinding, indien fout, error message.</li>
+                                        <li>Selecteer welke te controleren map op wijzigingen</li>
+                                        <li>Voeg bestemming voor bericht toe en hoe weer te geven.</li>
+                                        <li>Bij aankomst bericht, ontvangst bevestigingsbericht. Indien niet geüpload geen bevestiging.</li>
+                                    </ol>
+                                </p>
+                                <p>
+                                    Bij upload of wijziging van file op ftp-server, verzending van bericht in Slack.<br>
+                                    Functieblokken ter controle van upload op de ftp en daarna één voor één bericht te verzenden in Slack.<br>
+                                    Testwaarden : file succesvol geüpload en ontvangst bericht.
+                                </p>
+                                <p>
+                                    Stap-voor-stap beschrijving test (wat testen, hoe opstellen, wat als “testwaarden”).<br>
+                                    Accounts : Slack account, school account en ftp account om te testen.<br>
+                                    We gebruiken Flow ter controle van het beëindigen van de taken.<br>
+                                    Bij toevoegen/wijzigen van een file in de map “js” en/of “pages”, wordt een melding “changed in” verwacht in Slack en in Flow “Succeeded”, indien “Failed” opnieuw testen.
+                                </p>
+                                <br>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-12">
+                                        <img src="img/flow.png" class="img-responsive" alt="flow"><br>
+                                    </div>
+                                    <div class="col-xs-12 col-md-12">
+                                        <img src="img/slack.png" class="img-responsive" alt="slack">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-md-3"></div>
+                    </div>
+                </div>
+            </section>
+            <footer class="text-center">
+                <div class="row" style="margin: 0px;">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p>&copy; 2016 Arne Van den Langenbergh</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
