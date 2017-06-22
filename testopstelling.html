@@ -51,27 +51,29 @@
                         <div class="col-xs-10 col-md-6">
                             <div class="square">
                                 <h2 class="text-center text-nowrap">Testopstelling Flow</h2>
-                                <p>
-                                    <ol>
-                                        <li>Aanmaken ftp-verbinding, indien fout, error message.</li>
-                                        <li>Selecteer welke te controleren map op wijzigingen</li>
-                                        <li>Voeg bestemming voor bericht toe en hoe weer te geven.</li>
-                                        <li>Bij aankomst bericht, ontvangst bevestigingsbericht. Indien niet geüpload geen bevestiging.</li>
-                                    </ol>
-                                </p>
-                                <p>
-                                    Bij upload of wijziging van file op ftp-server, verzending van bericht in Slack.<br>
+                                <p> Bij upload of wijziging van file op ftp-server, verzending van bericht in Slack.
                                     Functieblokken ter controle van upload op de ftp en daarna één voor één bericht te verzenden in Slack.<br>
                                     Testwaarden : file succesvol geüpload en ontvangst bericht.
                                 </p>
                                 <p>
-                                    Stap-voor-stap beschrijving test (wat testen, hoe opstellen, wat als “testwaarden”).<br>
-                                    Accounts : Slack account, school account en ftp account om te testen.<br>
-                                    We gebruiken Flow ter controle van het beëindigen van de taken.<br>
+                                    Stap-voor-stap beschrijving test (wat testen, hoe opstellen, wat als “testwaarden”).
+                                    Accounts : Slack account, school account en ftp account om te testen.
+                                    We gebruiken Flow ter controle van het beëindigen van de taken.
                                     Bij toevoegen/wijzigen van een file in de map “js” en/of “pages”, wordt een melding “changed in” verwacht in Slack en in Flow “Succeeded”, indien “Failed” opnieuw testen.
                                 </p>
+                                <p>
+                                    Flow is een tool die we gebruiken om bestanden via een ftp-server te verzenden en te updaten.
+                                    D.m.v. deze tool kan men ook controleren of de acties, al dan niet, correct zijn uitgevoerd.
+                                    Eventuele foutmeldingen kunnen via berichten in Slack verzonden worden.
+                                    Hiervoor moet men dan wel eerst de nodige accounts aanmaken.
+                                </p>
+
                                 <br>
                                 <div class="row">
+                                    <div class="col-xs-12 col-md-12">
+                                        <img src="img/planner.PNG" class="img-responsive" alt="planner"><br>
+                                        <div class="caption center-block">Planner van Flow.</div>
+                                    </div>
                                     <div class="col-xs-12 col-md-12">
                                         <img src="img/flow.png" class="img-responsive" alt="flow"><br>
                                     </div>
